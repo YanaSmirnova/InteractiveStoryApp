@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Interactive Story</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title">Signals from Mars</string>
+    <string name="startBtnText">START YOUR ADVENTURE</string>
+    <string name="nameEditText">Enter your name to begin</string>
 
 </resources>
