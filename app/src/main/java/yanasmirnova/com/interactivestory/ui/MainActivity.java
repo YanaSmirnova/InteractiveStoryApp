@@ -1,4 +1,4 @@
-package yanasmirnova.com.interactivestory;
+package yanasmirnova.com.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import yanasmirnova.com.interactivestory.R;
 
 
 public class MainActivity extends ActionBarActivity {
