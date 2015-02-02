@@ -7,6 +7,6 @@
     <string name="startBtnText">START YOUR ADVENTURE</string>
     <string name="nameEditText">Enter your name to begin</string>
     <string name="title_activity_story">StoryActivity</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="key_name">name</string>
 
 </resources>
