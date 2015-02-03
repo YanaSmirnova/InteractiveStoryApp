@@ -67,7 +67,7 @@ public class StoryActivity extends ActionBarActivity {
             mChoice2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    loadPage(0);
+                    finish();
                 }
             });
         }
@@ -95,5 +95,4 @@ public class StoryActivity extends ActionBarActivity {
 
         //Toast.makeText(StoryActivity.this, mCurrentPage.isFinal()+"", Toast.LENGTH_LONG).show();
     }
-
 }

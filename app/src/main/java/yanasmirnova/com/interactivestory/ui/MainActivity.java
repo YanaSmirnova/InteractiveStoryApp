@@ -38,4 +38,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //mNameField.setText("");
+    }
 }
