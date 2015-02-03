@@ -23,6 +23,7 @@ public class Page {
         mText = text;
         mChoice1 = null;
         mChoice2 = null;
+        mIsFinal = true;
     }
 
     public int getImageId() {
