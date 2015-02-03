@@ -1,6 +1,9 @@
 package yanasmirnova.com.interactivestory.ui;
 
 import android.content.Intent;
+import android.graphics.Canvas;
+import android.graphics.ColorFilter;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,6 +43,14 @@ public class StoryActivity extends ActionBarActivity {
 
     private void loadPage() {
         Page page = mStory.getPage(0);
+
+        Drawable drawable = getResources().getDrawable(page.getImageId());
+        mImageView.setImageDrawable(drawable);
+
+        mTextView.setText(page.getText());
+
+        mChoice1.setText(page.getChoice1().getText());
+        mChoice2.setText(page.getChoice2().getText());
     }
 
 }
